@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&family=Roboto');
+
+.nav {
+    height: 50px;
+    background: blue;
+}
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.nav ul{
+    position: absolute;
+    right: 5px;
+}
+.nav ul li{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+}
+.nav ul li a{
+    color: white;
+    padding: 5px;
+}
+.home{
+    background: url("../Images/background.png");
+    background-size: cover;
+    height: 100vh;
+}
+.home .text-container{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.about-content{
+    background: darkSlateGray;
+    margin: 150px auto 0 auto;
+    padding: 20px;
+    width: 500px;
+    border-radius: 60px 0 60px 0;
+}
+.about-content h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: navy;
+}
+.about-content p{
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    color: lightCyan;
+}
+.services-content{
+    background: darkSlateGray;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    border-radius: 100px 0 100px 0;
+}
+.services-content h1{
+    font-family: 'Roboto', sans-serif;
+    color: navy;
+}
+.services-content .card-container ul{
+    padding: 0;   
+}
+.services-content .card-container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+}
+.services-content .card-container ul li img{
+    border: 2px solid blue;  
+}
+.services-content .card-container ul li p{
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    color: lightCyan;
+}
+.contact-content{
+    background: darkSlateGray;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 100px 0 100px 0;
+}
+.contact-content h1{
+    font-family: 'Roboto', sans-serif;
+    color: navy;
+}
+.contact-content .address-holder{
+    font-family: 'Lato', sans-serif;
+    color: lightCyan;
+}
